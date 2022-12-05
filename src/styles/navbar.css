@@ -1,0 +1,82 @@
+.navbarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 4rem;
+    /* background-color: rgb(63, 63, 63); */
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.1);
+}
+.navbarContainer .left{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.navbarContainer .left .logo{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+.navbarContainer .left .logo span{
+    color: rgb(172, 64, 2);
+}
+.navbarContainer .left .email img{
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 0.5rem;
+}
+.navbarContainer .left .email{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbarContainer .left .email a{
+    text-decoration: none;
+    color:rgb(104,104,106);
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+.navbarContainer .left .email a:hover{
+    color: rgb(172, 64, 2);
+}
+
+
+.navbarContainer .right{
+    width: 25%;
+    
+}
+.navbarContainer .right .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navbarContainer .right .links a{
+    text-decoration: none;
+    color: rgb(104,104,106);
+    font-size: 1rem;
+    transition: all 0.6s ease;
+}
+.navbarContainer .right .links a:hover{
+    color: rgb(172, 64, 2);
+}
+
+.navbarContainer .right .links .link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.navbarContainer .right .links .link img{
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 0.5rem;
+}

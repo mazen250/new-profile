@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(13,16,23);
+}
+
+.App{
+  background-color: rgb(13,16,23);
+  min-height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow:   0 0 10px 0 rgba(0,0,0,0.5);
+  margin-top: 80px;
+}
+
+/* change scroll bar color */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(13,16,23);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(13,16,23);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(172, 64, 2);
+}
