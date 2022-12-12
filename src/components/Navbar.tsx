@@ -1,11 +1,11 @@
-import React from 'react'
-import "../styles/navbar.css"
-import {Link} from 'react-router-dom'
-import emailIcon from '../assets/mail-128.ico'
-import home from '../assets/home-64.ico'
+import React from 'react';
+import "../styles/navbar.css";
+import {Link} from 'react-router-dom';
+import emailIcon from '../assets/mail-128.ico';
+import home from '../assets/home-64.ico';
 
-import work  from '../assets/document.png'
-import cv from '../assets/cv3.png'
+import work  from '../assets/document.png';
+import cv from '../assets/cv3.png';
 const Navbar = () => {
   return (
     <div className='navbarContainer'>
