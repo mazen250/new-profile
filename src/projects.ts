@@ -3,7 +3,7 @@ import grad from '../src/assets/grad.jpg'
 import pheonix from '../src/assets/pheonix.png'
 import cambridge from '../src/assets/cambridge.png'
 import ecommerce from '../src/assets/ecommerce.jpg'
-import social from '../src/assets/social.jpg'
+import social from '../src/assets/socialjpg.jpg'
 const projects = [
     {   
         id: 1,
