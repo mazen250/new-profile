@@ -7,7 +7,7 @@ import social from '../src/assets/socialjpg.jpg'
 const projects = [
     {   
         id: 1,
-        name: 'Personal Trainer',
+        name: 'Atwa Personal Trainer',
         description: 'Customized workout plans for users, with new and modern design , in addition to a new and modern design for the admin panel',
         image: gym,
         link: 'https://github.com/mazen250/Atwa',

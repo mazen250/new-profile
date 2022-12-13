@@ -1,0 +1,65 @@
+.aboutContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 70vh;
+    /* background-color: #fff; */
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+
+.aboutContainer .leftAbout{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutContainer .leftAbout .text{
+    width: 80%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: start;
+    color: rgb(139, 139, 139);
+}
+.aboutContainer .leftAbout .text p{
+    line-height: 1.4;
+}
+.aboutContainer .leftAbout .text h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(100, 100, 100);
+    border-bottom: 2px solid rgb(148, 67, 0);
+}
+.aboutContainer .leftAbout .text a{
+    text-decoration: none;
+    color: rgb(148, 67, 0);
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(148, 67, 0);
+}
+.aboutContainer .leftAbout .text h1 span{
+    color: rgb(148, 67, 0);
+}
+.aboutContainer .rightAbout{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.5)), url(../../../assets/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    object-fit: cover;
+    border-radius: 10px;
+}

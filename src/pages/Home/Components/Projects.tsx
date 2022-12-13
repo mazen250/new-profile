@@ -1,7 +1,7 @@
 import React ,{useState}from 'react';
 import '../style/projects.css';
 import projects from '../../../projects';
-const Projects = () => {
+const  Projects = () => {
     const [projectsList, setProjectsList] = useState(projects);
     const [showMore, setShowMore] = useState(false);
     const [count, setCount] = useState(projectsList.length/3);
@@ -57,4 +57,4 @@ const Projects = () => {
   )
 };
 
-export default Projects
+export default Projects;

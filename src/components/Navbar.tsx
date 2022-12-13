@@ -15,7 +15,6 @@ const Navbar = () => {
                 <img src={emailIcon} alt="email icon" />
                 <a href="mailto:mazenfayez56@gmail.com">
                 Mazenfayez56@gmail.com
-                    
                 </a>
 
             </div>
@@ -34,9 +33,7 @@ const Navbar = () => {
                 </div>
                 <div className="link">
                 <img src={cv} alt="resume" />
-                <Link to={"/resume"}>
-                    Resume
-                </Link>
+                <a href="../assets/Mazen.pdf" download>Resume</a>
                 </div>
 
             </div>
