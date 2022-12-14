@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='navbarContainer'>
         <div className="left">
-            <div className="logo"><span>M</span>AZEN</div>
+            <Link to={"/"} className="logo"><span>M</span>AZEN</Link>
             <div className="email">
                 <img src={emailIcon} alt="email icon" />
                 <a href="mailto:mazenfayez56@gmail.com">

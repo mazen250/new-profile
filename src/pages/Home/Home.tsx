@@ -8,6 +8,7 @@ import Contact from './Components/Contact';
 const Home = () => {
   return (
     <>
+    
       <Main />
       <Services />
       <Projects />
