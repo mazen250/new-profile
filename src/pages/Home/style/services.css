@@ -92,3 +92,18 @@ span{
     color: rgb(126, 126, 126) !important;
 
 }
+
+@media screen and (max-width:600px)
+{
+    .servContainer .servCont .right{
+        display: none;
+        
+    }
+    .servContainer .servCont .left{
+        width: 100%;
+    }
+    .servContainer .servCont .left .serv{
+        width: 80%;
+    }
+    
+}

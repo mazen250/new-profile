@@ -80,3 +80,127 @@
     height: 1.1rem;
     margin-right: 0.5rem;
 }
+
+
+.mobileNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 4rem;
+    /* background-color: rgb(63, 63, 63); */
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.1);
+}
+.mobileNav .left{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.mobileNav .left .logo{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+.mobileNav .right{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.mobileNav .right button{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    background-color: rgba(63, 63, 63, 0);
+    border-color: rgba(63, 63, 63, 0);
+}
+
+.mobileNav .right .icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    background-color: rgba(63, 63, 63, 0);
+    border-color: rgb(63, 63, 63);
+    color: rgb(153, 153, 153);
+    font-size: 24px;
+   
+}
+
+.navlink{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 70vw;
+    min-height: 100vh;
+    background-color: rgb(13,16,23);
+    
+    display: flex;
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    display: inline-block;
+}
+.navlink .left .navlogo{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    font-size: 1.3rem;
+    font-weight: 600;
+    transition: all 0.4s ease;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.navlink .links{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 1rem 0;
+    margin-left: -100px;
+    margin-top: 60px;
+}
+.navlink .link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.2rem 0;
+    margin-left: 20px;
+}
+.navlink .link a{
+    text-decoration: none;
+    color: rgb(104,104,106);
+    font-size: 1rem;
+    transition: all 0.6s ease;
+    padding: 0.5rem 1rem;
+}
+.navlink .link a:hover{
+    color: rgb(172, 64, 2);
+}
+.navlink .link img{
+    width: 1.1rem;
+    height: 1.1rem;
+    
+}
+/* create animation for the navlink to slide in from the left */
+.navlink{
+    animation: slideIn 0.8s ease forwards;
+}
+@keyframes slideIn{
+    0%{
+        transform: translateX(-100%);
+    }
+   
+
+    100%{
+        transform: translateX(0);
+    }
+
+}
+
+
+

@@ -19,7 +19,7 @@ const projects = [
         description: 'Intelligent system for student and recruiters to connect and find the best match for them and add skills to their profile based on their dynamic behavior and their interests usnig machine learning',
         image: grad,
         link: 'https://github.com/mazen250/grad',
-        technologies: ['React', 'Node', 'MongoDB', 'Python'],
+        technologies: ['React', 'Node', 'Mongo', 'Python'],
     }
     ,{
         id: 3,
@@ -35,7 +35,7 @@ const projects = [
         description: 'A website for selling and buying products, with a modern design and a new way to show products',
         image: ecommerce,
         link: 'https://github.com/mazen250/biscotti-client',
-        technologies: ['React', 'Node', 'MongoDB','express'],
+        technologies: ['React', 'Node', 'Mongo','express'],
     }
     ,{
         id: 5,

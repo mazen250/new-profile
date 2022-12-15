@@ -1,6 +1,7 @@
 
 import '../style/main.css';
 import Typed from 'react-typed';
+import { useEffect ,useState} from 'react';
 const Main = () => {
   return (
     <div className='homeContainer'>
@@ -15,9 +16,9 @@ const Main = () => {
           {/* <h1>Full Stack Developer</h1> */}
             <Typed
                 className="typedtext"
-                strings={["Full Stack Developer"]}
+                strings={["Software Developer", "Full Stack Developer", "Mobile Developer","Software Developer"]}
                 typeSpeed={40}
-                backSpeed={60}
+                backSpeed={20}
                 style={{color:"white"}}
             />
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus odit dolorum in dolore laborum magni officia, atque ipsam asperiores exercitationem hic explicabo dolor neque voluptas, rem soluta. Excepturi, laborum cumque!</p>

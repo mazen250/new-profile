@@ -41,3 +41,12 @@
     text-align: right;
     color: rgb(136, 136, 136);
 }
+
+@media screen and (max-width: 768px) {
+    .progress-line__outer {
+        width: 100%;
+    }
+    .progress-line__label{
+        width: 50px;
+    }
+}

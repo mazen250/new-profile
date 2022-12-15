@@ -110,3 +110,83 @@
         color: rgb(126, 126, 126) !important;
 
 }
+
+@media screen and (max-width:600px){
+        .homeContainer{
+                min-height: 100vh;
+                min-width: 100%;
+                background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(../../../assets/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+        }
+        .homeContainer .home .title{
+                font-size: 1.5rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                filter: brightness(0.7);
+                margin-left: 0;
+        }
+        .homeContainer .home .title .surname{
+                font-size: 1.4rem;
+                font-weight: 700;
+                margin-left: 3rem;
+        }
+        .homeContainer .home .description{
+                font-size: 1rem;
+                font-weight: 500;
+                margin-bottom: 1rem;
+                width: 80%;
+        }
+        .homeContainer .home .description h1{
+                font-size: 1rem;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                filter: brightness(0.8);
+                border-bottom:  4px solid rgb(163, 52, 0);
+                padding-bottom: 0.5rem;
+                width: 50%;
+                margin:auto;
+                margin-bottom: 20px;
+        }
+        .typedtext{
+                font-size: 1.4rem !important;
+                font-weight: 600;
+                margin-bottom: 1rem;
+                
+                border-bottom:  4px solid rgb(102, 33, 1);
+                padding-bottom: 0.5rem;
+                width: 50%;
+                color: rgb(126, 126, 126) !important;
+        
+        }
+        .homeContainer .home .description p{
+                font-size: 1rem;
+                font-weight: 500;
+                margin-bottom: 1rem;
+                width: 90%;
+                margin:auto;
+                margin-bottom: 20px;
+                color: rgb(157, 156, 156);
+                text-align: start;
+                margin-top: 20px;
+        }
+        .homeContainer .home .socialMedia a{
+                color: rgb(167, 167, 167);
+                font-size:1.5rem;
+                margin: 0 0.5rem;
+                transition: 0.3s;
+        }
+        .home .title .hello{
+                color: rgb(245, 246, 247);
+                font-size: 15px;
+                text-align: start;
+                background-color: orangered !important;
+                padding: 0.5rem;
+                border-radius: 5px;
+                width: 120px
+        }
+        #root > div > div.homeContainer > div > div.description > span > span:nth-child(1){
+                color: rgba(186, 187, 187, 0.596);
+        }
+}

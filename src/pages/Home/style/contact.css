@@ -76,3 +76,25 @@
 
 
 }
+@media screen and (max-width: 768px){
+   
+    .contactContainer .contact{
+        height: 100%;
+        justify-content: space-around;
+    }
+    .contactContainer .contact h1{
+        font-size: 1.3rem;
+    }
+    .contactContainer .contact a{
+        font-size: 0.8rem;
+    }
+    .contactContainer .contact .links{
+        width: 35%;
+    }
+    .contactContainer .contact .links a{
+        font-size: 1.2rem;
+    }
+    .contactContainer .contact .copyright{
+        font-size: 0.8rem;
+    }
+}
