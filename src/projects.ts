@@ -1,4 +1,4 @@
-import gym from '../src/assets/gym.jpg'
+import gym from '../src/assets/atwa.png'
 import grad from '../src/assets/grad.jpg'
 import pheonix from '../src/assets/pheonix.png'
 import cambridge from '../src/assets/cambridge.png'

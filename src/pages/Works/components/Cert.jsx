@@ -5,6 +5,9 @@ import udemy from "../../../assets/udemy.png";
 import istqb from "../../../assets/istqb.jpg";
 import cls from "../../../assets/cls.png";
 import "../styles/cert.css";
+import { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const certs = [
   {
     name: "Bachelor of Science in Computer and Artificial Intelligence",
@@ -39,14 +42,23 @@ const certs = [
 ];
 
 const Cert = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="certContainer">
-      <h1>
+      <h1 data-aos="fade-up" data-aos-duration="5000">
         <span>C</span>ertifications
       </h1>
       <div className="certs">
         {certs.map((cert) => (
-          <div className="cert" key={cert.name}>
+          <div
+            className="cert"
+            key={cert.name}
+            data-aos="fade-right"
+            data-aos-duration="5000"
+          >
             <img src={cert.image} alt={cert.name} />
             <div className="certInfo">
               <h4>{cert.school}</h4>

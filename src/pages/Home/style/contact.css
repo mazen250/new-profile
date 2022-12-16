@@ -98,3 +98,12 @@
         font-size: 0.8rem;
     }
 }
+
+@media screen and (max-width: 370px){
+    .contactContainer .contact .links{
+        width: 50%;
+    }
+    .contactContainer .contact .links a{
+        font-size: 1.2rem;
+    }
+}

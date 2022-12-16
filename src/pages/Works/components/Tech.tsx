@@ -15,12 +15,19 @@ import git from '../../../assets/github.png'
 import linux from '../../../assets/linux.png'
 import php from '../../../assets/php.png'
 import scikit from '../../../assets/sciket.png'
+import { useEffect ,useState} from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 const tech =[react,js,ts,html,css,node,mongo,java,postgres,python,docker,git,linux,php,scikit]
 const Tech = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, [])
   return (
     <div className='techContainer'>
-        <h1><span>T</span>echnologies i use?</h1>
-        <div className="techs">
+        <h1  data-aos="fade-right" data-aos-duration="5000"><span>T</span>echnologies i use?</h1>
+        <div className="techs" data-aos="fade-up" data-aos-duration="500">
 
         {tech.map((item,index)=>{
             return <img src={item} alt="" key={index}/>

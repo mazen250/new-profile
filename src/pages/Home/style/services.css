@@ -107,3 +107,21 @@ span{
     }
     
 }
+@media screen and (max-width:370px)
+{
+    .servContainer .servCont .right{
+        display: none;
+        
+    }
+    .servContainer .servCont .left{
+        width: 100%;
+        height: auto;
+        margin-top: 150px;
+    }
+    .servContainer .servCont .left .serv{
+        width: 80%;
+       margin-top: 20px;
+       height: 30vh;
+    }
+    
+}

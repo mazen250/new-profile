@@ -1,18 +1,28 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import '../styles/main.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Main = () => {
+useEffect(() => {
+  AOS.init();
+  AOS.refresh();
+}, [])
   return (
     <div className='aboutContainer'>
         <div className="leftAbout">
             <div className="text">
-            <h1><span>A</span>bout Me</h1>
-            <a href="../../../assets/Mazen.pdf" download>Download Resume</a>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut similique harum officia dolorem atque minus rem quae nihil eius optio quod aperiam hic, tempore earum ea molestias quasi quibusdam? Optio ex repellat quas eum rerum ab architecto suscipit. Quo impedit iure error quis tenetur sequi obcaecati illo ut aut eligendi.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aspernatur dignissimos quod sequi odit quia culpa officiis placeat nostrum soluta porro, pariatur eveniet fugiat minima sint dicta enim facilis labore.</p>
+            <h1  data-aos="fade-right" data-aos-duration="5000"><span>A</span>bout Me</h1>
+            <a href="../../../assets/Mazen.pdf" download  data-aos="fade-right" data-aos-duration="5000">Download Resume</a>
+            <p  data-aos="fade-right" data-aos-duration="5000">Hello there,
+            <br />
+            this is Mazen Alahwani, i am a software Engineer based in Cairo,Egypt , i've graduated from Cairo University in 2022, but this is not how it started, development has always been my passion, creating new and complex software is my thing!
+            </p>
+            
+            <p  data-aos="fade-right" data-aos-duration="5000">couple of years ago in the second year's summer i started learning web development, then react as a framework,express,SQL and NOSQL database , Now i am working to adapt my react skills to react native. </p>
             </div>
           
         </div>
-        <div className="rightAbout"></div>
+        <div className="rightAbout"  data-aos="fade-left" data-aos-duration="5000"></div>
     </div>
   )
 }

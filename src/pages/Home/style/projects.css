@@ -189,3 +189,95 @@
 
    
 }
+@media screen and (max-width:370px){
+    .projectsContainer{
+        margin-top: 130px;
+    }
+    .projectsContainer h1{
+        font-size: 2rem !important; 
+    }
+    .projectsContainer .projects .projectCard{
+        width: 90%;
+        height: 70vh;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        background-color: rgba(0, 0, 0, 0.221);
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        color: rgb(160, 160, 160);
+    }
+    .projectsContainer .projects .projectCard .projectInfo{
+        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        height: 50%;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+    .projectsContainer .projects .projectCard .projectInfo h2{
+        font-size: larger;
+    }
+    .projectsContainer .projects .projectCard .projectInfo p{
+        font-size: 13px;
+        font-weight: 500;
+        text-align: start;
+        margin: 0 auto;
+        color: rgb(132, 132, 132);
+        width: 75%;
+    }
+    .projectsContainer .projects .projectCard .projectInfo a{
+        display: flex;
+        font-size: 13px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+        height: 30px;
+        margin: 0 auto;
+        background-color: rgb(135, 47, 0);
+        border-radius: 10px;
+        /* box-shadow: 0 0 10px 0 rgba(0,0,0,0.2); */
+        transition: 0.3s;
+        color: rgb(185, 185, 185);
+        text-decoration: none;
+        border: none;
+    }
+    .projectsContainer .projects .projectCard .projectInfo .tech{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 80%;
+        height: 10%;
+        margin: 0 auto;
+        padding: 0 10px;
+        
+    }
+    .projectsContainer .projects .projectCard .projectInfo .tech p{
+        font-size: 13px;
+        font-weight: 500;
+        text-align: start;
+        margin: auto;
+        color: rgb(135, 134, 134);
+    }
+    .showMore button{
+        width: 160px;
+        height: 35px;
+        margin: 0 auto;
+        margin-top: 20px;
+        background-color: rgb(135, 47, 0);
+        border-radius: 10px;
+        box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+        font-size: 15px;
+        font-weight: 500;
+        color: rgb(185, 185, 185);
+        transition: all 0.5s ease;
+        cursor: pointer;
+        margin-bottom: 50px;
+    }
+  
+}

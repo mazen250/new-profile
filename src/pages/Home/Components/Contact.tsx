@@ -10,7 +10,7 @@ const Contact = () => {
             </a>
             <div className="links">
       <a href="https://wa.me/+201005785550" target="_blank" rel="noreferrer"><i className="fab fa-whatsapp"></i></a>
-            <a href="https://www.linkedin.com/in/mazen-alahwani-5b1b1b1b9/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/in/mazen-fayez-31b693152/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
       
             </div>
             <div className="copyright">

@@ -1,7 +1,14 @@
-import React ,{useState}from 'react';
+import React from 'react';
 import '../style/projects.css';
 import projects from '../../../projects';
+import { useEffect ,useState} from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
 const  Projects = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, [])
     const [projectsList, setProjectsList] = useState(projects);
     const [showMore, setShowMore] = useState(false);
     const [count, setCount] = useState(projectsList.length/3);
@@ -20,7 +27,9 @@ const  Projects = () => {
         <div className='projects'>
             {projectsList.slice(0,count).map((project, index) => {
                 return (
-                    <div className='projectCard' key={project.id}>
+                    <div className='projectCard' key={project.id}
+                    data-aos="fade-right" data-aos-duration="5000"
+                    >
                         <img src={project.image} alt={project.name} />
                         <div className='projectInfo'>
                         <h2>{project.name}</h2>

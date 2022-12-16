@@ -2,12 +2,20 @@
 import '../style/main.css';
 import Typed from 'react-typed';
 import { useEffect ,useState} from 'react';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
 const Main = () => {
+  useEffect(() => {
+  AOS.init();
+  AOS.refresh();
+}, [])
   return (
     <div className='homeContainer'>
       <div className="home">
-        <div className="title">
-        <p className="hello">Hello There!</p>
+        <div className="title"  >
+        <p className="hello"  data-aos="fade-zoom-in" data-aos-duration="5000">Hello There!</p>
         <h1><span style={{color:"orangered"}}>M</span>azen</h1>
        
         <h1 className='surname'>Alahwani</h1>
@@ -21,14 +29,14 @@ const Main = () => {
                 backSpeed={20}
                 style={{color:"white"}}
             />
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus odit dolorum in dolore laborum magni officia, atque ipsam asperiores exercitationem hic explicabo dolor neque voluptas, rem soluta. Excepturi, laborum cumque!</p>
+          <p>“Humans are allergic to change. They love to say, ‘We’ve always done it this way.’ I try to fight that. That’s why I have a clock on my wall that runs counterclockwise.” - Grace Hopper</p>
         </div>
-        <div className="socialMedia">
-          <a href="https://www.facebook.com/mazen.alahwani.7" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
-          <a href="https://www.instagram.com/mazen_alahwani/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/mazen-alahwani-5b1b1b1b9/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
+        <div className="socialMedia"  data-aos="fade-right" data-aos-duration="2000">
+          <a href="https://www.facebook.com/mazen.fayezmano/" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/mazenfayez/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/mazen-fayez-31b693152/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
       
-          <a href="https://www.github.com/mazenalahwani" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
+          <a href="https://github.com/mazen250" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
         </div>
       </div>
     </div>

@@ -50,3 +50,13 @@
         width: 50px;
     }
 }
+
+@media screen and (max-width: 380px) {
+    .progress-line__outer {
+        width: 90%;
+       
+    }
+    .progress-line__label{
+        width: 50px;
+    }
+}

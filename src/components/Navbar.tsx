@@ -7,8 +7,7 @@ import home from '../assets/home-64.ico';
 import work  from '../assets/document.png';
 import cv from '../assets/cv3.png';
 
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 const Navbar = () => {
 
@@ -21,8 +20,7 @@ useEffect(() => {
     window.addEventListener('resize', handleResize);
     handleResize();
     return () => window.removeEventListener('resize', handleResize);
-    AOS.init();
-    AOS.refresh();
+   
 }, [])
 
 
