@@ -107,7 +107,7 @@ span{
     }
     
 }
-@media screen and (max-width:370px)
+@media screen and (max-width:375px) and (max-height: 670px) 
 {
     .servContainer .servCont .right{
         display: none;
@@ -121,7 +121,10 @@ span{
     .servContainer .servCont .left .serv{
         width: 80%;
        margin-top: 20px;
-       height: 30vh;
+       height: 35vh;
+    }
+    .servContainer .tit{
+        margin-bottom: 60px;
     }
     
 }

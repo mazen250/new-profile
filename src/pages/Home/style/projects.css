@@ -189,7 +189,7 @@
 
    
 }
-@media screen and (max-width:370px){
+@media screen and (max-width:375px) and (max-height: 670px){
     .projectsContainer{
         margin-top: 130px;
     }
