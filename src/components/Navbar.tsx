@@ -65,7 +65,7 @@ useEffect(() => {
                         setShow(!show);
                     }
                 }>
-                    Works
+                    Projects
                 </Link>
                 </div>
                 <div className="link" >
@@ -102,7 +102,7 @@ useEffect(() => {
                 <div className="link">
                 <img src={work} alt="home" />
                 <Link to={"/works"}>
-                    Works
+                    Projects
                 </Link>
                 </div>
                 <div className="link">
