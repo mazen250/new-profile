@@ -11,7 +11,7 @@ const  Projects = () => {
       }, [])
     const [projectsList, setProjectsList] = useState(projects);
     const [showMore, setShowMore] = useState(false);
-    const [count, setCount] = useState(projectsList.length/3);
+    const [count, setCount] = useState(4);
   return (
     <div className='projectsContainer'>
         <h1 style={{
@@ -31,7 +31,7 @@ const  Projects = () => {
                     data-aos="fade-right" data-aos-duration="5000"
                     >
                         <img src={project.image} alt={project.name} />
-                        <div className='projectInfo'>
+                        <div className='projectInfo' data-aos="fade-right" data-aos-duration="5000">
                         <h2>{project.name}</h2>
                         <p>{project.description}</p>
                        
@@ -54,7 +54,7 @@ const  Projects = () => {
         <div className='showMore'>
             <button onClick={() => {
                 if(showMore){
-                    setCount(projectsList.length/3);
+                    setCount(4);
                     setShowMore(false);
                 }else{
                     setCount(projectsList.length);

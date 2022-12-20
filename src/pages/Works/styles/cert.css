@@ -127,7 +127,7 @@
         margin: 20px 0;
     }
     .certContainer .certs .cert img{
-        width: 50%;
+        width: 30%;
         object-fit: contain;
         height: 50%;
         border-radius:5px;
@@ -206,7 +206,7 @@
         margin: 20px 0;
     }
     .certContainer .certs .cert img{
-        width: 50%;
+        width: 25%;
         object-fit: contain;
         height: 50%;
         border-radius:5px;

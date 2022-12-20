@@ -24,7 +24,7 @@
     align-items: center;
     
     width: 45%;
-    height: 60vh;
+    height: 30vh;
     margin: 0 auto;
     margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.221);
@@ -35,23 +35,64 @@
 }
 .projectsContainer .projects .projectCard img{
     width: 100%;
-    height: 60%;
+    height: 100%;
     border-radius: 10px 10px 0 0;
-    filter: brightness(0.6);
+    filter: brightness(0.4);
     object-fit: cover;
 }
 
 .projectsContainer .projects .projectCard .projectInfo{
-    display: none;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     width: 100%;
-    height: 50%;
+    height: 70%;
     margin: 0 auto;
     padding: 0 10px;
+    display: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(13, 16, 23, 0.957);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    animation: slideUp 0.5s ease-in-out;
 }
+
+@keyframes slideUp{
+    0%{
+        height: 0;
+    }
+
+    100%{
+        height: 100%;
+    }
+}
+
+
+
+.projectsContainer .projects .projectCard:hover .projectInfo{
+    position: absolute;
+    display: flex;
+    height: 100%;
+    color: rgb(195, 192, 192);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+   
+}
+
+
+
 .projectsContainer .projects .projectCard .projectInfo p{
     font-size: 1rem;
     font-weight: 500;
@@ -124,7 +165,7 @@
 @media screen and (max-width: 768px){
     .projectsContainer .projects .projectCard{
         width: 90%;
-        height: 60vh;
+        height: 40vh;
         margin: 0 auto;
         margin-bottom: 20px;
         background-color: rgba(0, 0, 0, 0.221);
@@ -133,16 +174,38 @@
         transition: 0.3s;
         color: rgb(160, 160, 160);
     }
+    .projectsContainer .projects .projectCard img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 0 0;
+        filter: brightness(0.5);
+        object-fit: cover;
+    }
     .projectsContainer .projects .projectCard .projectInfo{
-        display: none;
+        
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
         width: 100%;
-        height: 50%;
+        height: 100%;
         margin: 0 auto;
         padding: 0 10px;
+        display: none;
+    }
+    .projectsContainer .projects .projectCard:hover .projectInfo{
+        position: absolute;
+    display: flex;
+    height: 100%;
+    color: rgb(195, 192, 192);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
     }
     .projectsContainer .projects .projectCard .projectInfo p{
         font-size: 1rem;
@@ -157,7 +220,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        width: 50%;
+        width:80%;
         height: 30px;
         margin: 0 auto;
         background-color: rgb(135, 47, 0);
@@ -198,7 +261,7 @@
     }
     .projectsContainer .projects .projectCard{
         width: 90%;
-        height: 70vh;
+        height: 40vh;
         margin: 0 auto;
         margin-bottom: 20px;
         background-color: rgba(0, 0, 0, 0.221);
@@ -207,16 +270,37 @@
         transition: 0.3s;
         color: rgb(160, 160, 160);
     }
+    .projectsContainer .projects .projectCard img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 0 0;
+        filter: brightness(0.5);
+        object-fit: cover;
+    }
     .projectsContainer .projects .projectCard .projectInfo{
-        display: none;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
         width: 100%;
-        height: 50%;
+        height: 100%;
         margin: 0 auto;
         padding: 0 10px;
+        display: none;
+    }
+    .projectsContainer .projects .projectCard:hover .projectInfo{
+        position: absolute;
+    display: flex;
+    height: 100%;
+    color: rgb(195, 192, 192);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
     }
     .projectsContainer .projects .projectCard .projectInfo h2{
         font-size: larger;
