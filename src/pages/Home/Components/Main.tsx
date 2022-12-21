@@ -34,7 +34,7 @@ const Main = () => {
         <div className="socialMedia"  data-aos="fade-right" data-aos-duration="2000">
           <a href="mailto:mazenfayez56@gmail.com" target="_blank" rel="noreferrer"><i className="fa-solid fa-envelope"></i></a>
           <a href="https://wa.me/+201005785550" target="_blank" rel="noreferrer"><i className="fab fa-whatsapp"></i></a>
-          <a href="https://www.linkedin.com/in/mazen-fayez-31b693152/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
+          <a href="https://www.linkedin.com/in/mazen-alahwani-31b693152/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin-in"></i></a>
       
           <a href="https://github.com/mazen250" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
         </div>
