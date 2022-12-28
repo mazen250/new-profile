@@ -5,6 +5,25 @@ import cambridge from '../src/assets/cambridge.png'
 import ecommerce from '../src/assets/ecommerce.jpg'
 import social from '../src/assets/socialjpg.jpg'
 const projects = [
+    {
+        id: 3,
+        name: 'Pheonix Academy',
+        description: 'A website you can check your certificate and get it in pdf format, and you can check your courses and your grades',
+        image: pheonix,
+        link: 'https://phoenixacademy.uk.com/about.html',
+        technologies: ['html', 'css', 'php', 'mysql'],
+    }
+    
+    ,
+    {
+        id: 6,
+        name: 'Cambridge',
+        description: ' website you can check your certificate and get it in pdf format, and you can check your courses and your grades',
+        image: cambridge,
+        link: 'https://amrfayez247.github.io/cambridge/index.html',
+        technologies: ['html', 'css', 'php', 'mysql'],
+
+    },
     {   
         id: 1,
         name: 'Atwa Personal Trainer',
@@ -22,14 +41,6 @@ const projects = [
         technologies: ['React', 'Node', 'Mongo', 'Python'],
     }
     ,{
-        id: 3,
-        name: 'Pheonix Academy',
-        description: 'A website you can check your certificate and get it in pdf format, and you can check your courses and your grades',
-        image: pheonix,
-        link: 'https://phoenixacademy.uk.com/about.html',
-        technologies: ['html', 'css', 'php', 'mysql'],
-    }
-    ,{
         id: 4,
         name: 'E-commerce',
         description: 'A website for selling and buying products, with a modern design and a new way to show products',
@@ -44,15 +55,6 @@ const projects = [
         image: social,
         link: 'https://github.com/mazen250/Social-Network-App-PHP-Mysql',
         technologies: ['html', 'css', 'php', 'mysql'],
-    },
-    {
-        id: 6,
-        name: 'Cambridge',
-        description: ' website you can check your certificate and get it in pdf format, and you can check your courses and your grades',
-        image: cambridge,
-        link: 'https://amrfayez247.github.io/cambridge/index.html',
-        technologies: ['html', 'css', 'php', 'mysql'],
-
     }
 ]
 export default projects
