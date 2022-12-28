@@ -32,8 +32,8 @@ const  Projects = () => {
                     >
                         <img src={project.image} alt={project.name} />
                         <div className='projectInfo' data-aos="fade-right" data-aos-duration="5000">
-                        <h2>{project.name}</h2>
-                        <p>{project.description}</p>
+                        <h2  data-aos="fade-right" data-aos-duration="5000">{project.name}</h2>
+                        <p  data-aos="fade-right" data-aos-duration="5000">{project.description}</p>
                        
                            
                             <a href={project.link} target='_blank' rel="noreferrer">Show Code/Website</a>
