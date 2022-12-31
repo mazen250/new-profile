@@ -131,3 +131,28 @@ span{
     }
     
 }
+@media screen and (min-width:1600px){
+    
+    
+    .servContainer .servCont .left{
+        width: 50%;
+        height: 50vh;
+        align-items: flex-start;
+    }
+    .servContainer .servCont .left .serv{
+        width: 20vw;
+        height: 17vh;
+    }
+    .servContainer .servCont .right{
+        width: 30vw;
+        height: 50vh;
+    }
+    .servContainer .servCont .left .serv p{
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-align: start;
+        margin: 0 auto;
+        color: rgb(132, 132, 132);
+    }
+  
+}

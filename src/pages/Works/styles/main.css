@@ -162,3 +162,21 @@
         filter: brightness(0.75);
     }
 }
+
+@media screen and (min-width: 1600px){
+    .aboutContainer{
+        height: 60vh;
+    }
+    .aboutContainer .leftAbout{
+        height: 35vh;
+    }
+    .aboutContainer .leftAbout .text{
+       height: 90%;
+    }
+    .aboutContainer .leftAbout .text p{
+        font-size: 1.2rem;
+    }
+    .aboutContainer .rightAbout{
+        height: 100%;
+    }
+}
