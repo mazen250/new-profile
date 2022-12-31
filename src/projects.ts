@@ -20,7 +20,7 @@ const projects = [
         name: 'Cambridge',
         description: ' website you can check your certificate and get it in pdf format, and you can check your courses and your grades',
         image: cambridge,
-        link: 'https://amrfayez247.github.io/cambridge/index.html',
+        link: 'https://cambridge-college.me.uk/',
         technologies: ['html', 'css', 'php', 'mysql'],
 
     },
